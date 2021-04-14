@@ -81,6 +81,26 @@ export default class Dashboard extends React.Component {
         nodeNumber: "12",
         status: "connected",
       },
+      {
+        key: 13,
+        nodeNumber: "13",
+        status: "connected",
+      },
+      {
+        key:14,
+        nodeNumber: "14",
+        status: "connected",
+      },
+      {
+        key: 15,
+        nodeNumber: "15",
+        status: "connected",
+      },
+      {
+        key: 16,
+        nodeNumber: "16",
+        status: "connected",
+      },
     ];
     const nodes = data.map((item) => {
       return (
