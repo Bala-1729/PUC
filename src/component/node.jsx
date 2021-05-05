@@ -13,6 +13,8 @@ export default class Node extends React.Component {
           className={
             this.props.status == "connected" ? "connected" : "disconnected"
           }
+
+          onClick={() => this.props.changeState(this.props.value)}
         >
           Node {this.props.nodeNumber}
         </button>

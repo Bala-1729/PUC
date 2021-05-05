@@ -13,6 +13,7 @@
     "react-scripts": "4.0.3",
     "react-tooltip": "^4.2.17",
     "reactjs-mappletooltip": "^1.4.63",
+    "styled-components": "^5.2.3",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
